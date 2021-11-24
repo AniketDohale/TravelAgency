@@ -81,7 +81,7 @@ def payment_option(root, id, members, stay, food, travel_amount, travel_date, da
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Aniket@123",
+        password="*********",
         database="exp"
     )
 
