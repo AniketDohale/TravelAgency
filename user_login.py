@@ -40,7 +40,7 @@ def user_login(root):
         mydb = mysql.connect(
             host="localhost",
             user="root",
-            password="Aniket@123",
+            password="*********",
             database="exp"
         )
 
