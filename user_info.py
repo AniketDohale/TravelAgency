@@ -109,7 +109,7 @@ def user_details(root):
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Aniket@123", database='exp'
+            password="*********", database='exp'
         )
         mycursor = mydb.cursor()
         mycursor.execute(query)
