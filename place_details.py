@@ -94,7 +94,7 @@ def place_details(root, pid, uname, city):
         conn = mysql.connector.connect(host='localhost',
                                        database='exp',
                                        user='root',
-                                       password='Aniket@123')
+                                       password='*********')
 
         cursor = conn.cursor()
 
