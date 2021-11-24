@@ -96,7 +96,7 @@ def add_tour(root):
         conn = mysql.connector.connect(host='localhost',
                                        database='exp',
                                        user='root',
-                                       password='Aniket@123')
+                                       password='*********')
         cursor = conn.cursor()
 
     def Submit():
