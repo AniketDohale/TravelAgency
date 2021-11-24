@@ -75,7 +75,7 @@ def user_view_place(root, uname, city):
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Aniket@123",
+            password="*********",
             database="exp"
         )
 
