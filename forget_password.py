@@ -40,7 +40,7 @@ def forget_password(root):
 
         else:
 
-            con = mysql.connector.connect(host="localhost", user="root", password="Aniket@123", database="exp")
+            con = mysql.connector.connect(host="localhost", user="root", password="*********", database="exp")
             cur = con.cursor()
             cur.execute("select * from reg where email=%s and birthdate=%s", (entry1.get(), entry3.get()))
             row = cur.fetchall()
